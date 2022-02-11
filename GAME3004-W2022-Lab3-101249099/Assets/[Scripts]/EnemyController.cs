@@ -5,9 +5,9 @@ using UnityEngine.AI;
 
 public class EnemyController : MonoBehaviour
 {
-    public Transform Player;
+    public Transform player;
 
-    private NavMeshAgent agent;
+    private NavMeshAgent agent; 
 
     // Start is called before the first frame update
     void Start()
@@ -18,6 +18,6 @@ public class EnemyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        agent.SetDestination(Player.position);        
+        agent.SetDestination(player.position);
     }
 }

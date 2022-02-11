@@ -1,19 +1,17 @@
 fileFormatVersion: 2
-guid: 1b69efaaaf76a824f8d70fdbda544990
+guid: b8de5bc723ee91b4483b36c9d50375b4
 ModelImporter:
   serializedVersion: 21202
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      74: -2562668720977851061
+    second: Coin|Coin-Rotate-Clip
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Concrete Material
-    second: {fileID: 2100000, guid: 2d543fd944723a94da6ec5b27dd072e2, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Gravel Cobbel Ground Material
-    second: {fileID: 2100000, guid: 5088419783024a74a91b2b195866ae4c, type: 2}
+      name: Coin Material
+    second: {fileID: 2100000, guid: ceadd86930b9bb74fb1a1f0dedb3177d, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -47,7 +45,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 1
+    addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importVisibility: 1

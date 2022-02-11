@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1b69efaaaf76a824f8d70fdbda544990
+guid: 2f7c9c4aaf19ad642abee223bec38ad7
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable: []
@@ -7,13 +7,18 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Concrete Material
-    second: {fileID: 2100000, guid: 2d543fd944723a94da6ec5b27dd072e2, type: 2}
+      name: Base Material
+    second: {fileID: 2100000, guid: ee8359079c157a5458e859a179580c80, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Gravel Cobbel Ground Material
-    second: {fileID: 2100000, guid: 5088419783024a74a91b2b195866ae4c, type: 2}
+      name: Black Material
+    second: {fileID: 2100000, guid: 60de76d4606376941989e8bc9ec1696b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Silver Material
+    second: {fileID: 2100000, guid: aa1464e810a969745af1c762d3817b01, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -47,7 +52,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 1
+    addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importVisibility: 1

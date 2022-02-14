@@ -15,7 +15,7 @@ H:/GAME3004/GAME3004_W2022_Labs/GAME3004-W2022-Lab3-101249099
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64475
+59753
 Successfully changed project path to: H:/GAME3004/GAME3004_W2022_Labs/GAME3004-W2022-Lab3-101249099
 H:/GAME3004/GAME3004_W2022_Labs/GAME3004-W2022-Lab3-101249099
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ H:/GAME3004/GAME3004_W2022_Labs/GAME3004-W2022-Lab3-101249099
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 86.36 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 73.30 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.7f1 (6bd9e232123f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/Resources/UnitySubsystems
@@ -63,93 +63,93 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56780
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56424
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004324 seconds.
+Registered in 0.004215 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 87.37 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 72.67 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.796 seconds
+- Completed reload, in  0.560 seconds
 Domain Reload Profiling:
-	ReloadAssembly (797ms)
-		BeginReloadAssembly (92ms)
+	ReloadAssembly (561ms)
+		BeginReloadAssembly (63ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (621ms)
-			LoadAssemblies (90ms)
+		EndReloadAssembly (429ms)
+			LoadAssemblies (61ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (221ms)
+			SetupTypeCache (97ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (301ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (261ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (87ms)
+				RefreshPlugins (73ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (153ms)
-				ProcessInitializeOnLoadMethodAttributes (45ms)
+				ProcessInitializeOnLoadAttributes (130ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002941 seconds.
+Registered in 0.002884 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image H:\GAME3004\GAME3004_W2022_Labs\GAME3004-W2022-Lab3-101249099\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image H:\GAME3004\GAME3004_W2022_Labs\GAME3004-W2022-Lab3-101249099\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.03 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 Package Manager log level set to [2]
-- Completed reload, in  1.070 seconds
+- Completed reload, in  0.877 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1071ms)
-		BeginReloadAssembly (109ms)
+	ReloadAssembly (878ms)
+		BeginReloadAssembly (95ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (851ms)
-			LoadAssemblies (73ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (701ms)
+			LoadAssemblies (76ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (273ms)
+			SetupTypeCache (207ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (410ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (327ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (83ms)
-				ProcessInitializeOnLoadAttributes (272ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
-				AfterProcessingInitializeOnLoad (12ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (219ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.49 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.71 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3533 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 42 unused Assets / (55.7 KB). Loaded Objects now: 3975.
+Unloading 42 unused Assets / (56.0 KB). Loaded Objects now: 3975.
 Memory consumption went from 121.4 MB to 121.3 MB.
-Total: 3.057300 ms (FindLiveObjects: 0.316600 ms CreateObjectMapping: 0.254300 ms MarkObjects: 2.404400 ms  DeleteObjects: 0.081100 ms)
+Total: 3.022000 ms (FindLiveObjects: 0.313000 ms CreateObjectMapping: 0.248200 ms MarkObjects: 2.400400 ms  DeleteObjects: 0.059600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -164,7 +164,49 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 68277.900652 seconds.
-  path: Assets/[Scripts]/DeathPlaneController.cs
-  artifactKey: Guid(0a95ceb2ade95b341a78fae6712a35c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/[Scripts]/DeathPlaneController.cs using Guid(0a95ceb2ade95b341a78fae6712a35c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b34b9f793cc4664902703e4b501be869') in 0.024291 seconds 
+  Time since last request: 276835.791439 seconds.
+  path: Assets/Models/coin.fbx
+  artifactKey: Guid(b8de5bc723ee91b4483b36c9d50375b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/coin.fbx using Guid(b8de5bc723ee91b4483b36c9d50375b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b3cd907841635cc098a2f335ec3a87b') in 0.128802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 74.742915 seconds.
+  path: Assets/Animations/Coin-Rotate-Clip.anim
+  artifactKey: Guid(22628e0a572c77d478c2eced68aef812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Coin-Rotate-Clip.anim using Guid(22628e0a572c77d478c2eced68aef812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f8726c1d272532452b3acfb38b2508') in 0.010461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.036417 seconds.
+  path: Assets/Animations/Coin Animator Controller.controller
+  artifactKey: Guid(3baf71b0b8ef6e84fa7af008e88d64e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Coin Animator Controller.controller using Guid(3baf71b0b8ef6e84fa7af008e88d64e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efd3c1b04c6ac20f005d9deb31c4e70e') in 0.006263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.524376 seconds.
+  path: Assets/Models/Robot401.fbx
+  artifactKey: Guid(2f7c9c4aaf19ad642abee223bec38ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Robot401.fbx using Guid(2f7c9c4aaf19ad642abee223bec38ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6d45aa4c12c4a931dbbcd1f5c4a617d') in 0.031654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 119.649028 seconds.
+  path: Assets/[Scenes]/MiniMapTestScene.unity
+  artifactKey: Guid(564430da20997c54c9942a9bc87eacd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Scenes]/MiniMapTestScene.unity using Guid(564430da20997c54c9942a9bc87eacd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68b952460925fcb4269bfcacf1f3f105') in 0.001476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.550090 seconds.
+  path: Assets/[Scenes]/Main.unity
+  artifactKey: Guid(c850ee8c3b14cc8459e7e186857cf567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Scenes]/Main.unity using Guid(c850ee8c3b14cc8459e7e186857cf567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84fe62bfd4448554778cc0fd10d72404') in 0.001210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.848259 seconds.
+  path: Assets/[Scenes]/Main
+  artifactKey: Guid(fbb4a6f0f57f09a4ebd7844ec1109787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Scenes]/Main using Guid(fbb4a6f0f57f09a4ebd7844ec1109787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2e779bf536046a3837b6aa8b8d95ea6') in 0.000962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.961699 seconds.
+  path: Assets/[Scenes]/MiniMapTestScene.unity
+  artifactKey: Guid(564430da20997c54c9942a9bc87eacd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Scenes]/MiniMapTestScene.unity using Guid(564430da20997c54c9942a9bc87eacd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '823e24b795257d8b3451569be27a8408') in 0.003202 seconds 
